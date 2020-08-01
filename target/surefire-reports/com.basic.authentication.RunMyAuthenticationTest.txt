@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.basic.authentication.RunMyAuthenticationTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 20.295 sec
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.999 sec

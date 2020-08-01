@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: com.basic.tagsOfcucumberSD.RunnerGETRequestTest
 -------------------------------------------------------------------------------
-Tests run: 30, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 6.749 sec <<< FAILURE!
+Tests run: 30, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 6.44 sec <<< FAILURE!
 Then user checks data at path "MRData.limit" having value "10" in jason(Scenario: Test my Get Method114)  Time elapsed: 0 sec  <<< FAILURE!
 java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:86)

@@ -55,14 +55,14 @@ formatter.match({
   "location": "GETRequestTestSD.user_start_the_rest_asured_test()"
 });
 formatter.result({
-  "duration": 3849478,
+  "duration": 3101106,
   "status": "passed"
 });
 formatter.match({
   "location": "GETRequestTestSD.user_hit_the_get_request()"
 });
 formatter.result({
-  "duration": 810632576,
+  "duration": 946671639,
   "status": "passed"
 });
 formatter.match({
@@ -75,7 +75,7 @@ formatter.match({
   "location": "GETRequestTestSD.user_checks_the_count_or_size(String)"
 });
 formatter.result({
-  "duration": 50712899,
+  "duration": 30917202,
   "status": "passed"
 });
 formatter.match({
@@ -92,7 +92,7 @@ formatter.match({
   "location": "GETRequestTestSD.user_checks_data_at_path_having_value_in_jason(String,String)"
 });
 formatter.result({
-  "duration": 60229786,
+  "duration": 28872936,
   "status": "passed"
 });
 formatter.match({
@@ -109,7 +109,7 @@ formatter.match({
   "location": "GETRequestTestSD.user_checks_data_at_path_having_value_in_jason(String,String)"
 });
 formatter.result({
-  "duration": 95969071,
+  "duration": 69875085,
   "status": "passed"
 });
 formatter.scenario({
@@ -159,14 +159,14 @@ formatter.match({
   "location": "GETRequestTestSD.user_start_the_rest_asured_test()"
 });
 formatter.result({
-  "duration": 226325,
+  "duration": 195530,
   "status": "passed"
 });
 formatter.match({
   "location": "GETRequestTestSD.user_hit_the_get_request()"
 });
 formatter.result({
-  "duration": 1474014191,
+  "duration": 857757310,
   "status": "passed"
 });
 formatter.match({
@@ -179,7 +179,7 @@ formatter.match({
   "location": "GETRequestTestSD.user_checks_the_count_or_size(String)"
 });
 formatter.result({
-  "duration": 31646862,
+  "duration": 64292216,
   "status": "passed"
 });
 formatter.match({
@@ -196,7 +196,7 @@ formatter.match({
   "location": "GETRequestTestSD.user_checks_data_at_path_having_value_in_jason(String,String)"
 });
 formatter.result({
-  "duration": 38792472,
+  "duration": 46261906,
   "status": "passed"
 });
 formatter.match({
@@ -213,7 +213,7 @@ formatter.match({
   "location": "GETRequestTestSD.user_checks_data_at_path_having_value_in_jason(String,String)"
 });
 formatter.result({
-  "duration": 96362085,
+  "duration": 123599394,
   "status": "passed"
 });
 formatter.scenario({
@@ -259,14 +259,14 @@ formatter.match({
   "location": "GETRequestTestSD.user_start_the_rest_asured_test()"
 });
 formatter.result({
-  "duration": 198950,
+  "duration": 83100,
   "status": "passed"
 });
 formatter.match({
   "location": "GETRequestTestSD.user_hit_the_get_request()"
 });
 formatter.result({
-  "duration": 791575827,
+  "duration": 934587398,
   "status": "passed"
 });
 formatter.match({
@@ -279,7 +279,7 @@ formatter.match({
   "location": "GETRequestTestSD.user_checks_the_count_or_size(String)"
 });
 formatter.result({
-  "duration": 51260380,
+  "duration": 49512104,
   "status": "passed"
 });
 formatter.match({
@@ -296,7 +296,7 @@ formatter.match({
   "location": "GETRequestTestSD.user_checks_data_at_path_having_value_in_jason(String,String)"
 });
 formatter.result({
-  "duration": 43694384,
+  "duration": 50565032,
   "status": "passed"
 });
 formatter.match({
@@ -313,7 +313,7 @@ formatter.match({
   "location": "GETRequestTestSD.user_checks_data_at_path_having_value_in_jason(String,String)"
 });
 formatter.result({
-  "duration": 306067951,
+  "duration": 873525826,
   "status": "passed"
 });
 formatter.scenario({
@@ -353,14 +353,14 @@ formatter.match({
   "location": "GETRequestTestSD.user_start_the_rest_asured_test()"
 });
 formatter.result({
-  "duration": 94342,
+  "duration": 89944,
   "status": "passed"
 });
 formatter.match({
   "location": "GETRequestTestSD.user_hit_the_get_request()"
 });
 formatter.result({
-  "duration": 841180077,
+  "duration": 798945800,
   "status": "passed"
 });
 formatter.match({
@@ -373,7 +373,7 @@ formatter.match({
   "location": "GETRequestTestSD.user_checks_the_count_or_size(String)"
 });
 formatter.result({
-  "duration": 66003758,
+  "duration": 29261063,
   "status": "passed"
 });
 formatter.match({
@@ -390,7 +390,7 @@ formatter.match({
   "location": "GETRequestTestSD.user_checks_data_at_path_having_value_in_jason(String,String)"
 });
 formatter.result({
-  "duration": 73556555,
+  "duration": 24302911,
   "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat com.basic.tagsOfcucumberSD.GETRequestTestSD.user_checks_data_at_path_having_value_in_jason(GETRequestTestSD.java:42)\r\n\tat ✽.Then user checks data at path \"MRData.limit\" having value \"10\" in jason(GetRequestTesting.feature:33)\r\n",
   "status": "failed"
 });
@@ -453,14 +453,14 @@ formatter.match({
   "location": "GETRequestTestSD.user_start_the_rest_asured_test()"
 });
 formatter.result({
-  "duration": 112918,
+  "duration": 502512,
   "status": "passed"
 });
 formatter.match({
   "location": "GETRequestTestSD.user_hit_the_get_request()"
 });
 formatter.result({
-  "duration": 909935906,
+  "duration": 813526471,
   "status": "passed"
 });
 formatter.match({
@@ -473,7 +473,7 @@ formatter.match({
   "location": "GETRequestTestSD.user_checks_the_count_or_size(String)"
 });
 formatter.result({
-  "duration": 67065481,
+  "duration": 25698995,
   "status": "passed"
 });
 formatter.match({
@@ -490,7 +490,7 @@ formatter.match({
   "location": "GETRequestTestSD.user_checks_data_at_path_having_value_in_jason(String,String)"
 });
 formatter.result({
-  "duration": 35218689,
+  "duration": 24654865,
   "status": "passed"
 });
 formatter.match({
@@ -507,7 +507,7 @@ formatter.match({
   "location": "GETRequestTestSD.user_checks_data_at_path_having_value_in_jason(String,String)"
 });
 formatter.result({
-  "duration": 79556364,
+  "duration": 46375803,
   "status": "passed"
 });
 });

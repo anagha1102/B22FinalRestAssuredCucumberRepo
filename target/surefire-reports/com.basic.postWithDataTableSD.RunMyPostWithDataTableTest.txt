@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.basic.postWithDataTableSD.RunMyPostWithDataTableTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 2, Skipped: 2, Time elapsed: 0.525 sec <<< FAILURE!
-Given user hit the post request with "Tom" name(Scenario: Test my POST request test)  Time elapsed: 0.013 sec  <<< ERROR!
+Tests run: 4, Failures: 0, Errors: 2, Skipped: 2, Time elapsed: 0.593 sec <<< FAILURE!
+Given user hit the post request with "Tom" name(Scenario: Test my POST request test)  Time elapsed: 0 sec  <<< ERROR!
 java.nio.file.NoSuchFileException: D:\IBM\workspace\CucuRestAssured\src\test\java\com\basic\postFromTextFileSD\user.json
 	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
 	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
@@ -14,7 +14,7 @@ java.nio.file.NoSuchFileException: D:\IBM\workspace\CucuRestAssured\src\test\jav
 	at com.basic.postWithDataTableSD.MyPostWithDataTable.user_hit_the_post_request_with_json_data(MyPostWithDataTable.java:35)
 	at ?.Given user hit the post request with "Tom" name(PostWithDataTable.feature:5)
 
-Scenario: Test my POST request test  Time elapsed: 0.013 sec  <<< ERROR!
+Scenario: Test my POST request test  Time elapsed: 0.001 sec  <<< ERROR!
 java.nio.file.NoSuchFileException: D:\IBM\workspace\CucuRestAssured\src\test\java\com\basic\postFromTextFileSD\user.json
 	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
 	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="com.basic.postWithDataTableSD.RunMyPostWithDataTableTest" time="0.052" errors="2" skipped="2">
+<testsuite tests="4" failures="0" name="com.basic.postWithDataTableSD.RunMyPostWithDataTableTest" time="0.003" errors="2" skipped="2">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_261\bin"/>
@@ -27,9 +27,9 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="C:\Workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8132154704671447596.tmp"/>
+    <property name="classworlds.conf" value="C:\Workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf524985308664070198.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_261\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_261/bin/server;C:/Program Files/Java/jre1.8.0_261/bin;C:/Program Files/Java/jre1.8.0_261/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;;C:\eclipse;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_261\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_261/bin/server;C:/Program Files/Java/jre1.8.0_261/bin;C:/Program Files/Java/jre1.8.0_261/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files\Git\cmd;C:\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -61,7 +61,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Scenario: Test my POST request test" name="Given user hit the post request with &quot;Tom&quot; name" time="0.013">
+  <testcase classname="Scenario: Test my POST request test" name="Given user hit the post request with &quot;Tom&quot; name" time="0">
     <error message="D:\IBM\workspace\CucuRestAssured\src\test\java\com\basic\postFromTextFileSD\user.json" type="java.nio.file.NoSuchFileException">java.nio.file.NoSuchFileException: D:\IBM\workspace\CucuRestAssured\src\test\java\com\basic\postFromTextFileSD\user.json
 	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
 	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
@@ -80,12 +80,12 @@
 
 5 Scenarios (5 passed)
 10 Steps (10 passed)
-0m5.241s
+0m4.327s
 
 Feature: First Rest Assured test POST
 </system-out>
   </testcase>
-  <testcase classname="Scenario: Test my POST request test" name="Scenario: Test my POST request test" time="0.013">
+  <testcase classname="Scenario: Test my POST request test" name="Scenario: Test my POST request test" time="0.001">
     <error message="D:\IBM\workspace\CucuRestAssured\src\test\java\com\basic\postFromTextFileSD\user.json" type="java.nio.file.NoSuchFileException">java.nio.file.NoSuchFileException: D:\IBM\workspace\CucuRestAssured\src\test\java\com\basic\postFromTextFileSD\user.json
 	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
 	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
@@ -98,10 +98,10 @@ Feature: First Rest Assured test POST
 	at ✽.Given user hit the post request with &quot;Tom&quot; name(PostWithDataTable.feature:5)
 </error>
   </testcase>
-  <testcase classname="Scenario: Test my POST request test" name="Then user validate followind data" time="0.013">
+  <testcase classname="Scenario: Test my POST request test" name="Then user validate followind data" time="0.001">
     <skipped/>
   </testcase>
-  <testcase classname="Scenario: Test my POST request test" name="Then I will validate other parameter" time="0.013">
+  <testcase classname="Scenario: Test my POST request test" name="Then I will validate other parameter" time="0.001">
     <skipped/>
   </testcase>
 </testsuite>

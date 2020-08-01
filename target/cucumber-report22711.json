@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4285018,
+              "duration": 7693616,
               "status": "passed"
             },
             "line": 5,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 829906849,
+              "duration": 953377829,
               "status": "passed"
             },
             "line": 6,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 47535552,
+              "duration": 97097259,
               "status": "passed"
             },
             "line": 7,
@@ -54,7 +54,7 @@
           },
           {
             "result": {
-              "duration": 41334838,
+              "duration": 107956506,
               "status": "passed"
             },
             "line": 8,
@@ -76,7 +76,7 @@
           },
           {
             "result": {
-              "duration": 100579646,
+              "duration": 131272479,
               "status": "passed"
             },
             "line": 9,
@@ -98,7 +98,7 @@
           },
           {
             "result": {
-              "duration": 74494606,
+              "duration": 148608658,
               "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat com.basic.getRequestBasicsSD.GETRequestTestSD.user_checks_data_at_path_having_value_in_jason(GETRequestTestSD.java:42)\r\n\tat ✽.Then user checks data at path \"MRData.CircuitTable.Circuits[3].circuitId\" having value \"MOnaco\" in jason(GetRequestTesting.feature:10)\r\n",
               "status": "failed"
             },
@@ -141,7 +141,7 @@
         "steps": [
           {
             "result": {
-              "duration": 282539,
+              "duration": 267876,
               "status": "passed"
             },
             "line": 5,
@@ -153,7 +153,7 @@
           },
           {
             "result": {
-              "duration": 786582993,
+              "duration": 985746842,
               "status": "passed"
             },
             "line": 6,
@@ -165,7 +165,7 @@
           },
           {
             "result": {
-              "duration": 39482689,
+              "duration": 29481034,
               "status": "passed"
             },
             "line": 7,
@@ -183,7 +183,7 @@
           },
           {
             "result": {
-              "duration": 158563781,
+              "duration": 57859768,
               "status": "passed"
             },
             "line": 8,
@@ -205,7 +205,7 @@
           },
           {
             "result": {
-              "duration": 193300979,
+              "duration": 73346232,
               "status": "passed"
             },
             "line": 9,
@@ -227,7 +227,7 @@
           },
           {
             "result": {
-              "duration": 273033809,
+              "duration": 114867025,
               "status": "passed"
             },
             "line": 10,

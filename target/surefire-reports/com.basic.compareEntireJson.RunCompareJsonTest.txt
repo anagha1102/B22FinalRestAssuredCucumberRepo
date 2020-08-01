@@ -1,4 +1,24 @@
 -------------------------------------------------------------------------------
 Test set: com.basic.compareEntireJson.RunCompareJsonTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.982 sec
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 3.069 sec <<< FAILURE!
+Given user compare two json string(Scenario: Test my Delete request)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.AssertionError: id
+Expected: 1231
+     got: 123
+
+	at org.skyscreamer.jsonassert.JSONAssert.assertEquals(JSONAssert.java:417)
+	at org.skyscreamer.jsonassert.JSONAssert.assertEquals(JSONAssert.java:394)
+	at com.basic.compareEntireJson.TestCompareJson.user_compare_two_json_string(TestCompareJson.java:41)
+	at ?.Given user compare two json string(com/basic/compareEntireJson/comparejson.feature:5)
+
+Scenario: Test my Delete request  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.AssertionError: id
+Expected: 1231
+     got: 123
+
+	at org.skyscreamer.jsonassert.JSONAssert.assertEquals(JSONAssert.java:417)
+	at org.skyscreamer.jsonassert.JSONAssert.assertEquals(JSONAssert.java:394)
+	at com.basic.compareEntireJson.TestCompareJson.user_compare_two_json_string(TestCompareJson.java:41)
+	at ?.Given user compare two json string(com/basic/compareEntireJson/comparejson.feature:5)
+

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="com.basic.compareEntireJson.RunCompareJsonTest" time="0.049" errors="0" skipped="0">
+<testsuite tests="2" failures="2" name="com.basic.compareEntireJson.RunCompareJsonTest" time="0.005" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_261\bin"/>
@@ -27,9 +27,9 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="C:\Workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8132154704671447596.tmp"/>
+    <property name="classworlds.conf" value="C:\Workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf524985308664070198.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_261\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_261/bin/server;C:/Program Files/Java/jre1.8.0_261/bin;C:/Program Files/Java/jre1.8.0_261/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;;C:\eclipse;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_261\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_261/bin/server;C:/Program Files/Java/jre1.8.0_261/bin;C:/Program Files/Java/jre1.8.0_261/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files\Git\cmd;C:\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -61,6 +61,39 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Scenario: Test my Delete request" name="Given user compare two json string" time="0"/>
-  <testcase classname="Scenario: Test my Delete request" name="Scenario: Test my Delete request" time="0.049"/>
+  <testcase classname="Scenario: Test my Delete request" name="Given user compare two json string" time="0.002">
+    <failure message="id
+Expected: 1231
+     got: 123
+" type="java.lang.AssertionError">java.lang.AssertionError: id
+Expected: 1231
+     got: 123
+
+	at org.skyscreamer.jsonassert.JSONAssert.assertEquals(JSONAssert.java:417)
+	at org.skyscreamer.jsonassert.JSONAssert.assertEquals(JSONAssert.java:394)
+	at com.basic.compareEntireJson.TestCompareJson.user_compare_two_json_string(TestCompareJson.java:41)
+	at ✽.Given user compare two json string(com/basic/compareEntireJson/comparejson.feature:5)
+</failure>
+    <system-out>
+1 Scenarios (&amp;#27;[32m1 passed&amp;#27;[0m)
+2 Steps (&amp;#27;[32m2 passed&amp;#27;[0m)
+0m7.940s
+
+Feature: compare entire json
+</system-out>
+  </testcase>
+  <testcase classname="Scenario: Test my Delete request" name="Scenario: Test my Delete request" time="0.003">
+    <failure message="id
+Expected: 1231
+     got: 123
+" type="java.lang.AssertionError">java.lang.AssertionError: id
+Expected: 1231
+     got: 123
+
+	at org.skyscreamer.jsonassert.JSONAssert.assertEquals(JSONAssert.java:417)
+	at org.skyscreamer.jsonassert.JSONAssert.assertEquals(JSONAssert.java:394)
+	at com.basic.compareEntireJson.TestCompareJson.user_compare_two_json_string(TestCompareJson.java:41)
+	at ✽.Given user compare two json string(com/basic/compareEntireJson/comparejson.feature:5)
+</failure>
+  </testcase>
 </testsuite>
